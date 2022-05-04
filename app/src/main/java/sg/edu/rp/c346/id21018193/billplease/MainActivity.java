@@ -1,7 +1,6 @@
 package sg.edu.rp.c346.id21018193.billplease;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
