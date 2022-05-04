@@ -24,7 +24,8 @@
             android:id="@+id/tv2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Amount ($)" />
+            android:text="Amount ($)"
+            android:textColor="#006064" />
 
         <EditText
             android:id="@+id/et1"
@@ -39,7 +40,8 @@
             android:id="@+id/tv3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Number of pax." />
+            android:text="Number of pax."
+            android:textColor="#006064" />
 
         <EditText
             android:id="@+id/et2"
@@ -88,7 +90,8 @@
             android:id="@+id/tv4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Discount (%)" />
+            android:text="Discount (%)"
+            android:textColor="#006064" />
 
         <EditText
             android:id="@+id/et3"
@@ -110,7 +113,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Cash" />
+                android:text="Cash"
+                android:textColor="#6D4C41"
+                tools:ignore="TextContrastCheck" />
 
             <RadioButton
                 android:id="@+id/rbtn2"
