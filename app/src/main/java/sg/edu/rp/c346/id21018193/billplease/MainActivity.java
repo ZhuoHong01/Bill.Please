@@ -36,10 +36,11 @@ public class MainActivity extends AppCompatActivity {
 
         String amount = etxt1.getText().toString();
         Integer.parseInt(amount);
-        String amount2 = etxt2.getText().toString();
-        Integer.parseInt(amount2);
-        String amount3 = etxt3.getText().toString();
-        Double.parseDouble(amount3);
+        String people = etxt2.getText().toString();
+        Integer.parseInt(people);
+        String discount = etxt3.getText().toString();
+        Double.parseDouble(discount);
+
     }
 
 
