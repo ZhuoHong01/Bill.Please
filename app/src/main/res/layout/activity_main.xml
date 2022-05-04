@@ -18,14 +18,11 @@
             android:text="Amount ($)" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/editTextNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            tools:ignore="SpeakableTextPresentCheck"
-            android:autofillHints="" />
+            android:inputType="number" />
 
         <TextView
             android:id="@+id/textView4"
@@ -34,10 +31,11 @@
             android:text="Number of pax." />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/editTextNumber2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
