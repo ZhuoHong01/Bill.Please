@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#7400BCD4"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -51,7 +52,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="#673AB7"
                 android:checked="false"
+                android:fontFamily="monospace"
                 android:text=""
                 android:textOff="GST"
                 android:textOn="GST" />
@@ -61,7 +64,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="#673AB7"
                 android:checked="false"
+                android:fontFamily="monospace"
                 android:text="ToggleButton"
                 android:textOff="SVC"
                 android:textOn="SVC" />
@@ -115,14 +120,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="split" />
+                android:fontFamily="monospace"
+                android:text="split"
+                app:backgroundTint="#673AB7" />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="reset" />
+                android:fontFamily="monospace"
+                android:text="reset"
+                app:backgroundTint="#673AB7" />
         </LinearLayout>
 
     </LinearLayout>
