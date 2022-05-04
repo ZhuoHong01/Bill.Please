@@ -146,6 +146,7 @@
                 android:fontFamily="monospace"
                 android:text="reset"
                 app:backgroundTint="#673AB7" />
+
         </LinearLayout>
 
     </LinearLayout>
