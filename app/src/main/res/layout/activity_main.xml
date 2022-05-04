@@ -4,13 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7400BCD4"
+    android:background="#744F9DA6"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:ems="5"
+            android:inputType="textPersonName"
+            android:text="The Bill"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            />
 
         <TextView
             android:id="@+id/textView3"
@@ -56,6 +67,8 @@
                 android:checked="false"
                 android:fontFamily="monospace"
                 android:text=""
+                android:textColor="#FFFCFC"
+                android:textColorHint="#FFFFFF"
                 android:textOff="GST"
                 android:textOn="GST" />
 
@@ -68,6 +81,7 @@
                 android:checked="false"
                 android:fontFamily="monospace"
                 android:text="ToggleButton"
+                android:textColor="#FFFFFF"
                 android:textOff="SVC"
                 android:textOn="SVC" />
 
@@ -111,7 +125,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="236dp"
+            android:layout_height="450dp"
             android:layout_weight="1"
             android:orientation="horizontal">
 
