@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     RadioButton Rbtn2;
     Button split;
     Button reset;
+    TextView total;
+    TextView perpax;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         Rbtn2 = findViewById(R.id.rbtn2);
         split = findViewById(R.id.btn1);
         reset = findViewById(R.id.btn2);
+        total = findViewById(R.id.tv6);
+        perpax = findViewById(R.id.tv8);
 
         String amount = etxt1.getText().toString();
         Integer.parseInt(amount);
