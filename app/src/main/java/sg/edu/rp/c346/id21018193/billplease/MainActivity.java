@@ -2,7 +2,9 @@ package sg.edu.rp.c346.id21018193.billplease;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,6 +14,10 @@ public class MainActivity extends AppCompatActivity {
     EditText etxt3;
     ToggleButton togbtn1;
     ToggleButton togbtn2;
+    RadioButton Rbtn1;
+    RadioButton Rbtn2;
+    Button split;
+    Button reset;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         etxt3 = findViewById(R.id.et3);
         togbtn1 = findViewById(R.id.tbtn1);
         togbtn2 = findViewById(R.id.tbtn2);
+        Rbtn1 = findViewById(R.id.rbtn1);
+        Rbtn2 = findViewById(R.id.rbtn2);
+        split = findViewById(R.id.btn1);
+        reset = findViewById(R.id.btn2);
 
         String amount = etxt1.getText().toString();
         Integer.parseInt(amount);
