@@ -46,6 +46,54 @@ public class MainActivity extends AppCompatActivity {
         String discount = etxt3.getText().toString();
         Double.parseDouble(discount);
 
+        if ((togbtn1 == true) && (togbtn2 == false)) {
+            String endamt1= (amount + (amount * 0.07)) - (amount * discount);
+            total.setText(endamt1);
+            String eachpax= (endamt1 / etxt2);
+            perpax.setText(eachpax);
+            if (Rbtn1 == boolean isChecked; {
+                System.out.println("Pay " + perpax + " in cash");
+            }
+            else {
+                System.out.println("Pay " + perpax + " to 91234567");
+            }
+        }
+        if ((togbtn1 == false) && (togbtn2 == true)) {
+            String endamt2= (amount + (amount * 0.1)) - (amount * discount);
+            total.setText(endamt2);
+            String eachpax= (endamt2 / etxt2);
+            perpax.setText(eachpax);
+            if (Rbtn1 == boolean isChecked; {
+                System.out.println("Pay " + perpax + " in cash");
+            }
+            else {
+                System.out.println("Pay " + perpax + " to 91234567");
+            }
+        }
+        if ((togbtn1 == true) && (togbtn2 == true)) {
+            String endamt3= (amount + (amount * 0.07)+ (amount * 0.1)) - (amount * discount);
+            total.setText(endamt3);
+            String eachpax= (endamt3 / etxt2);
+            perpax.setText(eachpax);
+            if (Rbtn1 == boolean isChecked; {
+                System.out.println("Pay " + perpax + " in cash");
+            }
+            else {
+                System.out.println("Pay " + perpax + " to 91234567");
+            }
+        }
+        else {
+            String endamt4= amount - (amount * discount);
+            total.setText(endamt4);
+            String eachpax= (endamt4 / etxt2);
+            perpax.setText(eachpax);
+            if (Rbtn1 == boolean isChecked; {
+                System.out.println("Pay " + perpax + " in cash");
+            }
+            else {
+                System.out.println("Pay " + perpax + " to 91234567");
+            }
+        }
     }
 
 
